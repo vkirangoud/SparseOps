@@ -80,12 +80,3 @@ sort_csr_rows(&A);  // 🔁 Sort before benchmarking
 * Ensures **predictable memory access** for vectorization.
 * Helps with **numerical reproducibility**.
 * Required for some formats (like CSR-based SpMV with duplicate handling).
-
-Would you like me to integrate this into your existing codebase and update the ZIP file?
-
-
-sort_csr_rows(&A);  // 🔁 Sort before benchmarking 
-          //✅ Benefits 
-            // Ensures predictable memory access for vectorization.
-            //Helps with numerical reproducibility. 
-            // Required for some formats (like CSR-based SpMV with duplicate handling).
